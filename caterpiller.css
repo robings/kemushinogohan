@@ -1,0 +1,119 @@
+:root {
+  --borderColor: #FFFF00;
+  --backgroundColor: #000000;
+  --questionsBgColor: #003300;
+  --color: #FFFF00;
+}
+
+
+body {
+  margin: 0px;
+  background-color: var(--backgroundColor);
+  color: var(--color);
+}
+
+header {
+  background-image: url(images/leaves.jpg);
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+header img {
+  width: 187px;
+  height: 40px;
+}
+
+header div {
+  float: right;
+  padding: 10px;
+}
+
+header input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  vertical-align: text-bottom;
+}
+
+header label {
+  padding-bottom: 3px;
+}
+
+#butterflies {
+  display: none;
+}
+
+#food, #progress, #butterflies {
+  background-image: url(images/leaves.jpg);
+  border-bottom: 1px solid var(--borderColor);
+}
+
+#food img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+#food img:last-child {
+  width: 166px;
+  height: 40px;
+  margin-left: 20px;
+}
+
+#questions {
+  background-color: var(--questionsBgColor);
+  border-bottom: 1px solid var(--borderColor);
+  height: 317px;
+}
+
+#pupate {
+  background-color: var(--questionsBgColor);
+  display: none;
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+#pupate img:first-child {
+  float: left;
+}
+
+#pupate div {
+  float: left;
+  padding-top: 45px;
+}
+
+#pupate div img {
+  display: block;
+  clear: both;
+}
+
+#butterflyButton {
+  border: 1px solid var(--borderColor);
+  cursor: pointer;
+}
+
+#progress {
+  overflow: auto;
+}
+
+#caterpiller {
+  float: left;
+}
+
+#score {
+  float: right;
+  padding-top: 10px;
+}
+
+.questionContainer{
+  position: relative;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  margin: 0;
+}
+
+.bordered {
+  border: 1px solid var(--borderColor);
+}
+
