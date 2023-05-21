@@ -12,4 +12,4 @@ To Play
 - If you are right, the caterpiller grows
 - If you are wrong, the caterpiller shrinks
 - When you have 10 right, the caterpiller pupates.
-- Then you can hatch the butterfly; for each 10 questions you get right a butterfly of a selection of - colours will appear.
+- Then you can hatch the butterfly; for each 10 questions you get right a butterfly of a selection of colours will appear.
